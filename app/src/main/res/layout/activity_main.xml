@@ -43,4 +43,50 @@
             android:textAlignment="center"
             android:text="3" />
     </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="244dp"
+        android:layout_height="240dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="122dp" >
+
+        <TextView
+            android:id="@+id/hintsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="TextView" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current\nScore"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteY="241dp"
+        tools:layout_editor_absoluteX="268dp" />
+
+    <Button
+        android:id="@+id/hintsButton"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:text="Hints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="405dp" />
 </android.support.constraint.ConstraintLayout>
