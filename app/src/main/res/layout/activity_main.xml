@@ -14,41 +14,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total score:"
-        android:textSize="35sp"
-        android:layout_marginStart="48dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="37dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <android.support.v7.widget.CardView
-        android:layout_width="119dp"
-        android:layout_height="85dp"
-        android:id="@+id/cardView"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="16dp"
+        android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="16dp" >
-
-        <TextView
-            android:id="@+id/textView"
-            android:textSize="50sp"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textAlignment="center"
-            android:text="3" />
-    </android.support.v7.widget.CardView>
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="39dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <android.support.v7.widget.CardView
-        android:layout_width="244dp"
-        android:layout_height="240dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="122dp" >
+        android:layout_width="226dp"
+        android:layout_height="200dp"
+        android:id="@+id/cardView3"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0">
 
         <TextView
             android:id="@+id/hintsTextView"
@@ -60,33 +42,88 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="122dp" />
+        android:layout_width="78dp"
+        android:layout_height="90dp"
+        android:id="@+id/currentScoreCardView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="27dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0">
+
+        <TextView
+            android:id="@+id/currentScoreDisplay"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TextView" />
+    </android.support.v7.widget.CardView>
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/currentScoreTextView"
+        android:layout_width="78dp"
+        android:layout_height="50dp"
         android:text="Current\nScore"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteY="241dp"
-        tools:layout_editor_absoluteX="268dp" />
+        android:textSize="20sp"
+        android:layout_marginRight="27dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="231dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
 
     <Button
         android:id="@+id/hintsButton"
         android:layout_width="159dp"
         android:layout_height="60dp"
         android:text="Hints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="405dp" />
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="159dp"
-        android:layout_height="60dp"
+        android:layout_width="149dp"
+        android:layout_height="57dp"
         android:text="Submit"
-        tools:layout_editor_absoluteX="212dp"
-        tools:layout_editor_absoluteY="405dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="38dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/totalScoreCardView"
+        android:layout_width="119dp"
+        android:layout_height="85dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/totalScoreDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="50sp" />
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/movieNameEditText"
+        android:layout_width="353dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter movie name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="114dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="344dp" />
 </android.support.constraint.ConstraintLayout>
