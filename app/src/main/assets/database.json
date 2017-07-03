@@ -1,0 +1,13 @@
+{
+  "avengers" : {
+    "year" : 2012,
+    "description" : "is a 2012 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.1 It is the sixth film in the Marvel Cinematic Universe. The film was written and directed by Joss Whedon",
+    "hint1" : " In the film, Nick Fury, director of the peacekeeping organization S.H.I.E.L.D., recruits Iron Man, Captain America, the Hulk, and Thor to form a team that must stop Thor's brother Loki from subjugating Earth."
+  },
+
+  "inception": {
+    "year" : 2010,
+    "description" : "is a 2010 science fiction film written, co-produced, and directed by Christopher Nolan, and co-produced by Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious, and is offered a chance to have his criminal history erased as payment for a seemingly impossible task",
+    "hint1" : " the implantation of another person's idea into a target's subconscious."
+  }
+}
