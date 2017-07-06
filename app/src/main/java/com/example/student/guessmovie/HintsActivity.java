@@ -1,5 +1,6 @@
 package com.example.student.guessmovie;
 
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -16,14 +17,28 @@ public class HintsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hints);
+        TextView hintsActivityTextView = (TextView) findViewById(R.id.hintsActivityTextView);
 
-        TextView hint = (TextView) findViewById(R.id.hintsActivityTextView);
         try {
-            JSONObject obj = new JSONObject(getIntent().getStringExtra("movie"));
+            String movieName = getIntent().getStringExtra("movie");
+            JSONObject db = new JSONObject(loadJSONFromAsset());
+            JSONObject thisMovie = db.getJSONObject(movieName);
             int hints_taken = getIntent().getIntExtra("hints_taken", 0);
 
             if (hints_taken == 1) {
-                hint.setText(obj.getString("hint1"));
+                hintsActivityTextView.setText(thisMovie.getString("hint1"));
+            }
+            else if (hints_taken == 2) {
+                hintsActivityTextView.setText(thisMovie.getString("hint2"));
+            }
+            else if (hints_taken == 3) {
+                hintsActivityTextView.setText(thisMovie.getString("hint3"));
+            }
+            else if (hints_taken == 4) {
+                hintsActivityTextView.setText(thisMovie.getString("hint4"));
+            }
+            else {
+                hintsActivityTextView.setText("No more hints");
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -31,19 +46,19 @@ public class HintsActivity extends AppCompatActivity {
 
     }
 
-//    public String loadJSONFromAsset() {
-//        String json = null;
-//        try {
-//            InputStream is = getAssets().open("database.json");
-//            int size = is.available();
-//            byte[] buffer = new byte[size];
-//            is.read(buffer);
-//            is.close();
-//            json = new String(buffer, "UTF-8");
-//        } catch (IOException ex) {
-//            ex.printStackTrace();
-//            return null;
-//        }
-//        return json;
-//    }
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getAssets().open("database.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
 }

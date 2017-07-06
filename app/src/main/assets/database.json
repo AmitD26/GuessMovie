@@ -1,13 +1,29 @@
 {
   "avengers" : {
     "year" : 2012,
-    "description" : "is a 2012 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.1 It is the sixth film in the Marvel Cinematic Universe. The film was written and directed by Joss Whedon",
-    "hint1" : " In the film, Nick Fury, director of the peacekeeping organization S.H.I.E.L.D., recruits Iron Man, Captain America, the Hulk, and Thor to form a team that must stop Thor's brother Loki from subjugating Earth."
+    "description" : "It is a 2012 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.1 It is the sixth film in the Marvel Cinematic Universe. The film was written and directed by Joss Whedon",
+    "hint1" : " In the film, Nick Fury, director of the peacekeeping organization S.H.I.E.L.D., recruits Iron Man, Captain America, the Hulk, and Thor to form a team that must stop Thor's brother Loki from subjugating Earth.",
+    "hint2" : "The Asgardian Loki encounters the Other, the leader of an extraterrestrial race known as the Chitauri. In exchange for retrieving the Tesseract,2 a powerful energy source of unknown potential, the Other promises Loki an army with which he can subjugate Earth.",
+    "hint3" : " Nick Fury, director of the espionage agency S.H.I.E.L.D., and his lieutenant Agent Maria Hill arrive at a remote research facility during an evacuation, where physicist Dr. Erik Selvig is leading a research team experimenting on the Tesseract.",
+    "hint4" : "Agent Phil Coulson explains that the object has begun radiating an unusual form of energy. The Tesseract suddenly activates and opens a wormhole, allowing Loki to reach Earth."
+
   },
 
   "inception": {
     "year" : 2010,
-    "description" : "is a 2010 science fiction film written, co-produced, and directed by Christopher Nolan, and co-produced by Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious, and is offered a chance to have his criminal history erased as payment for a seemingly impossible task",
-    "hint1" : " the implantation of another person's idea into a target's subconscious."
+    "description" : "It is a 2010 science fiction film written, co-produced, and directed by Christopher Nolan, and co-produced by Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious, and is offered a chance to have his criminal history erased as payment for a seemingly impossible task",
+    "hint1" : " the implantation of another person's idea into a target's subconscious.",
+    "hint2" : "Dominick \"Dom\" Cobb (Leonardo DiCaprio) and Arthur (Joseph Gordon-Levitt) are \"extractors\", who perform corporate espionage using an experimental military technology to infiltrate the subconscious of their targets and extract valuable information through a shared dream world.",
+    "hint3" : "Their latest target, Japanese businessman Saito (Ken Watanabe), reveals that he arranged their mission himself to test Cobb for a seemingly-impossible job: planting an idea in a person's subconscious.",
+    "hint4" : "To break up the energy conglomerate of ailing competitor Maurice Fischer (Pete Postlethwaite), Saito wants Cobb to convince Fischer's son and heir, Robert (Cillian Murphy), to dissolve his father's company."
+  },
+
+  "interstellar": {
+    "year" : 2014,
+    "description" : "The film stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Casey Affleck, Ellen Burstyn, John Lithgow, and Michael Caine. Set in a dystopian future where humanity is struggling to survive, it follows a group of astronauts who travel through a wormhole in search of a new home for humanity.",
+    "hint1" : "Sometime in the 21st century, a series of crop blights on Earth threatens humanity's survival. Joseph Cooper, a widowed former NASA pilot, runs a farm with his father-in-law, son Tom, and daughter Murphy.",
+    "hint2" : " Living in a post-truth society (Cooper is reprimanded at school for telling Murphy that the Apollo missions did indeed happen), Cooper encourages Murphy to carefully observe and record what she sees.",
+    "hint3" : "They realize that a pattern of dust on the floor is created by gravity variations and not, as Murphy first believed, by a poltergeist. Decoding it as a set of geographic coordinates, Cooper and Murphy follow them to a secret NASA facility, where they are met by Cooper's former professor, Dr. Brand.",
+    "hint4" : "Brand reveals that a wormhole mysteriously appeared near Saturn 48 years earlier, opening a pathway to a distant galaxy with potentially-habitable planets. "
   }
 }
